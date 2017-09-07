@@ -1,0 +1,48 @@
+.footer{
+  background: #bda3d9;
+  height: 450px;
+  position: relative;
+  &-wrap{
+
+  }
+
+  &-login-heading{
+    font-size: 100px;
+    position: absolute;
+    top: 50px;
+    left: 45%;
+    box-sizing: border-box;
+  }
+
+  &-login{
+    font-size: 50px;
+    &-list-ID{
+      position: absolute;
+      top: 250px;
+      left: 600px;
+    }
+    &-list-PW{
+      position: absolute;
+      top: 300px;
+      left: 600px;
+
+    }
+  }
+
+}
+
+.footer-comment{
+  margin-left: 320px;
+  float: left;
+  display: inline;
+
+
+  &-logo{
+    margin-top: 350px;
+  }
+
+  &-text{
+    font-size: 25px;
+
+  }
+}

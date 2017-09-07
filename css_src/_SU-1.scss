@@ -1,0 +1,338 @@
+.su1-header{
+
+  &-visual{
+    width: 100%;
+    height: 1067px;
+    background: url("../images/su1_visual01.png") no-repeat;
+
+    &-logo{
+      font-size:100px;
+      color:white;
+      text-align: center;
+      padding-top: 414px;
+      letter-spacing: 20px;  //글자 간격 지정 속성
+
+      &-move{
+
+      }
+    }
+  }
+}
+
+.inner-box{
+}
+
+.su1-section01{
+  background: url("../images/su1_visual01.png") no-repeat;
+  width: 100%;
+  height: 1067px;
+}
+
+.su1-intro{
+
+  &-list{
+    background: #005826;
+    height: 1067px;
+    opacity: 0.3;
+
+    &-item-01,
+    &-item-02{
+      color: #ddd;
+      font-size: 100px;
+      padding-top: 300px;
+    }
+
+    &-item-02{
+      text-align: right;
+    }
+  }
+}
+
+.su1-text-big{
+  font-size: 150px;
+}
+
+.su1-styling{
+  background: #d2414f;
+  width: 100%;
+  height: 2600px;
+  text-align: center;
+
+  position: relative;
+
+
+  &-wrap{
+
+  }
+  &-header{
+    font-size: 100px;
+    padding-top: 270px;
+  }
+
+  &-list{
+
+    &-item{
+      margin-right: 45px;
+
+      &-01{
+        position: absolute;
+        top:400px;
+        left:300px;
+      }
+
+      &-02{
+        position: absolute;
+        top:520px;
+        left:657px;
+    }
+
+      &-03{
+        position: absolute;
+        top: 738px;
+        left: 1220px;
+      }
+
+      &-04{
+        position: absolute;
+        top:1069px;
+        left: 300px;
+      }
+
+      &-05{
+        position: absolute;
+        top:1069px;
+        left: 647px;
+      }
+
+      &-06{
+        position: absolute;
+        top: 1069px;
+        left: 1014px;
+      }
+
+      &-07{
+        position: absolute;
+        top: 1586px;
+        left: 372px;
+      }
+
+      &-08{
+        position: absolute;
+        top: 1716px;
+        left: 648px;
+      }
+    }
+  }
+}
+
+.su1-inner-box{
+
+}
+
+.su1-styling-move{
+  font-size: 72px;
+  position: relative;
+
+  &-header{
+    position: absolute;
+    top: 1595px;
+    left: 1111px;
+    line-height: 1.3em;
+    text-align: right;
+  }
+
+  &-arrow{
+    position: absolute;
+    top: 1800px;
+    left: 1134px;
+
+
+  }
+}
+
+.su1-styling-move-arrow:after{
+  background: url("../images/image_sprite.png") no-repeat;
+  top:1800px;
+  left:1134px;
+
+}
+
+
+//화살표 안나옴 //
+
+.su1-best{
+
+  height: 3000px;
+  position: relative;
+
+
+  &-wrap{
+  }
+
+  &-list-header{
+    font-size: 150px;
+    -webkit-transform: rotate(-90deg);
+    position: absolute;
+    left: -220px;
+    top: 790px;
+
+  }
+
+  &-list{
+    height: 900px;
+    &-item-01{
+      position: absolute;
+      left: 500px;
+      top: 400px;
+    }
+
+    &-item-02{
+      position:absolute;
+      top: 200px;
+      left: 840px;
+    }
+
+     &-item-03{
+       position: absolute;
+       top: 400px;
+       left: 1150px;
+     }
+
+    &-item-04{
+      position: absolute;
+      top: 250px;
+      left: 1510px;
+    }
+
+    &-item-05{
+      position: absolute;
+      top: 1600px;
+      left: 180px;
+    }
+
+    &-item-06{
+      position: absolute;
+      top: 1750px;
+      left: 500px;
+    }
+
+    &-item-07{
+      position: absolute;
+      top: 1600px;
+      left: 760px;
+    }
+
+    &-item-08{
+      position: absolute;
+      top: 1750px;
+      left: 1180px;
+    }
+
+  }
+
+}
+
+.su1-best-move{
+  font-size: 60px;
+  &-header{
+    position: absolute;
+    top: 2180px;
+    left: 1440px;
+    line-height: 1.3em;
+    text-align: right;
+  }
+
+  &-arrow{
+    color: #0000fe;
+    position: absolute;
+    top: 2280px;
+    left: 1440px;
+  }
+}
+
+
+.su1-photo{
+
+  height: 1750px;
+  background: #bda3d9;
+
+  position: relative;
+
+  &-wrap{
+
+  }
+
+  &-list{
+
+    &-item-01{
+      position: absolute;
+      top: 330px;
+      left: 170px;
+    }
+
+    &-item-02{
+      position: absolute;
+      top: 670px;
+      left: 300px;
+    }
+
+    &-item-03{
+      position: absolute;
+      top: 320px;
+      left: 800px;
+    }
+
+    &-item-04{
+      position: absolute;
+      top: 450px;
+      left: 1240px;
+    }
+
+    &-item-05{
+      position: absolute;
+      top: 1170px;
+      left: 210px;
+    }
+
+    &-item-06{
+      position: absolute;
+      top: 1020px;
+      left: 780px;
+    }
+
+    &-item-07{
+      position: absolute;
+      top: 1130px;
+      left: 1200px;
+    }
+
+    &-item-08{
+    position: absolute;
+    top: 1280px;
+    left: 1540px;
+    }
+
+    &-item-09{
+      position: absolute;
+      top: 1400px;
+      left: 820px;
+    }
+  }
+}
+
+.su1-photo-move{
+  &-header{
+    font-size: 100px;
+    position: absolute;
+    top: 1470px;
+    left: 520px;
+  }
+
+  &-arrow{
+
+  }
+}
+
+
+
+
